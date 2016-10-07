@@ -1,0 +1,115 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i,800,800i,900,900i|Roboto:700,700i,900,900i';
+
+
+
+/*
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END reset */
+
+.wrapper {
+	background-color: rgb(171,234,250);
+}
+.header {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-top: 24px;
+}
+.wrapper img {
+	display: inline-block;
+	
+}
+.logo {
+	max-width: 1037px;
+	margin: 0 auto;
+}
+.logo ul {
+	float: right;
+	margin-top: 26px;
+}
+.logo ul li {
+	float: left;
+	margin-left: 12px;
+}
+.h_offer {
+	color: rgb(255,245,31);
+	font-family: "Raleway";
+	font-size: 48px;
+	font-weight: 800;
+	text-transform: uppercase;
+	
+}
+.p_offer {
+	color: rgb(255,245,31);
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+/*
+.title_slide {
+  font-size: 48px;
+  font-family: "Raleway";
+  color: rgb(255, 245, 31);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.708;
+  text-align: left;
+  position: absolute;
+  left: 912.388px;
+  top: 272.038px;
+  width: 300px;
+  height: 144px;
+  z-index: 85;
+}
+
+*/
