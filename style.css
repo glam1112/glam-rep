@@ -1,115 +1,157 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i,800,800i,900,900i|Roboto:700,700i,900,900i';
-
-
-
-/*
-    font-family: 'Roboto', sans-serif;
-
-    font-family: 'Raleway', sans-serif;
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+.first-letter {
+	background-color: #fff;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+.second-color {
+	background-color: #cccccc;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+p {
 	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* END reset */
-
-.wrapper {
-	background-color: rgb(171,234,250);
-}
-.header {
-	max-width: 1230px;
-	margin: 0 auto;
-	padding-top: 24px;
-}
-.wrapper img {
-	display: inline-block;
-	
-}
-.logo {
-	max-width: 1037px;
-	margin: 0 auto;
-}
-.logo ul {
-	float: right;
-	margin-top: 26px;
-}
-.logo ul li {
-	float: left;
+	margin-top: 0px;
+	width: 20px;
+	text-align: center;
 	margin-left: 12px;
+	height: 20px;
 }
-.h_offer {
-	color: rgb(255,245,31);
-	font-family: "Raleway";
-	font-size: 48px;
-	font-weight: 800;
-	text-transform: uppercase;
+
+.board {
+	display: inline-block;
+	position: relative;
+	top:50px;
+	margin: 0 auto;
+	width: 502px;
+}
+
+.black {
+	width: 400px;
+	height: 45px;
+	outline: 1px solid black;
+	margin: 0 auto;
+	margin-top: 0px;
+	font-size: 24px;
+	line-height: 45px;
+}
+
+.black>div {
+	float: left;
+}
+
+.white>div {
+	float: left;
+}
+
+.white {
+	width: 400px;
+	height: 45px;
+	outline: 1px solid black;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 24px;
+	line-height: 45px;
+}
+
+#mainChessBoard {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 50px ;
+}
+
+.click-coll {
+	background-color: #fdf8a2;
+}
+
+#chessBoardLetters {
+    width: 402px;
+    height: 50px;
+    clear: both;
+    margin-left: 50px;
+    background-color: #e1e1e1;
+}
+
+#chessBoardLetters1 {
+    width: 402px;
+    height: 50px;
+    clear: both;
+    margin-left: 50px;
+    background-color: #e1e1e1;
+}
+
+#chessBoardNumbers {
+    float: left;
+    width: 50px;
+    height: 400px;
+    background-color: #e1e1e1;
+    display: inline-block;
+    margin-top: -400px;
+}
+
+#chessBoardNumbers1 {
+    float: right;
+    width: 50px;
+    height: 400px;
+    background-color: #e1e1e1;
+    display: inline-block;
+}
+
+#chessBoardLetters > div,
+#mainChessBoard > div,
+#chessBoardNumbers > div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 1.6em;
+}	
+
+#chessBoardLetters1 > div {
+	width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 1.6em;
+}
+
+#chessBoardNumbers1 > div {
+	width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.6em;
+}
+
+.status {
+	width: 100px;
+	height: 40px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: relative;
+	outline: 1px solid black;
+	line-height: 40px;
+	color: #a00000;
+	font-size: 24px;
 	
 }
-.p_offer {
-	color: rgb(255,245,31);
-	font-size: 18px;
-	font-family: 'Raleway', sans-serif;
+
+#marker {
+	width: 50px;
+	height: 50px;
+	background-color: #fdf8a2;
+	right: 51px;
+	z-index: 0;
+
 }
 
-
-
-
-
-
-/*
-.title_slide {
-  font-size: 48px;
-  font-family: "Raleway";
-  color: rgb(255, 245, 31);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.708;
-  text-align: left;
-  position: absolute;
-  left: 912.388px;
-  top: 272.038px;
-  width: 300px;
-  height: 144px;
-  z-index: 85;
+.res2 {
+	margin-top: 80px;
 }
 
-*/
+.res1 {
+	margin-top: 20px;
+}
